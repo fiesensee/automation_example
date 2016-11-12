@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include automation_example *.css
+recursive-include automation_example *.csv
+recursive-include automation_example *.html
+recursive-include automation_example *.ico
+recursive-include automation_example *.js
+recursive-include automation_example *.json
+recursive-include automation_example *.md
+recursive-include automation_example *.png
+recursive-include automation_example *.py
+recursive-include automation_example *.svg
+recursive-include automation_example *.txt
+recursive-exclude automation_example *.pyc
